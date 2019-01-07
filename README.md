@@ -4,7 +4,7 @@ I have attempted Task 1 of the nucon.io programming assignment. This README docu
 
 ### Part 1: Training a CNN model using Keras
 
-Considering the limited size of our dataset, I chose to approach this by finetuning the VGG16 pre-trained model for our classification task instead of building a model from scratch. After going through several iterations of tweaking with the model architecture, batch sizes, and data augmentation techniques, the model achieved a val_acc of 0.76.
+Considering the limited size of our dataset, I chose to approach this by finetuning the VGG16 pre-trained model for our classification task instead of building a model from scratch. After going through several iterations of tweaking with the model architecture, batch sizes, and data augmentation techniques, the model achieved a val_acc of 0.76. The code used for settting up and training the model is in 'trainModel.py'.
 
 I selected 11 classes for this model - some were selected for their (relatively) large number of samples (eg. window, door, pipe), whereas others were chosen because they appeared to have distinct features and shapes (at least from a human pov), and I was interested in discovering whether these features would make easier for the model to distinguish them (eg. fire alarm, aircon vent, cctv).
 
