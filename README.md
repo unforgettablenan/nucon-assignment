@@ -1,4 +1,4 @@
-## Nucon Programming Assignment (Task 1 - Image classification)
+## Nucon Image classification
 
 I have attempted Task 1 of the nucon.io programming assignment. This README documents my approach to this task!
 
@@ -34,11 +34,7 @@ Example output:
   "success": true
 }
 ```
-### Part 3: Extract the image file from .xlsx, classifying the image, return updated file
 
-Unfortunately, I got stuck at this part as I could not successfully read the images from the .xlsx file (I tested my code on 'sample_issue_report.xlsx'). Suppose I were able to extract the image and run it through the model (as per part 2), I would read the text portion of the .xlsx using pandas read_excel function and convert it to a numpy array. I will then add a new column to the array for the predicted 'Component Class' and fill in the predicted class. The array can then be written into .xlsx format using the xlsxwriter package in Python. I am not sure how the image can be placed back into the file and be made to display correcly.
-
-I have attempted to take the .xlsx file as input in 'run_keras_server.py' under the api endpoint '/predictXlsx', but have commented out the section as I have not managed to make it read the image correctly.
 
 
 ### Built With
