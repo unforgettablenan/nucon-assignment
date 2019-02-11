@@ -1,6 +1,5 @@
 ## Nucon Image classification
 
-I have attempted Task 1 of the nucon.io programming assignment. This README documents my approach to this task!
 
 ### Part 1: Training a CNN model using Keras
 
